@@ -10,41 +10,47 @@
 </head>
 
 <body>
-    <h1>Get In Touch With Me</h1>
-    <p id="description">Please provide the necessary information so that we can connect</p>
+    <h1 id="title">Get In Touch With Me</h1>
+    <p id="description">Please provide the necessary information to connect with me.</p>
 
     <form id="survey-form">
 
         <fieldset>
-            <label for="name-label">Name:
+            <label id="name-label">Name:
                 <input id="name" name="name" type="text" placeholder="Enter Name" required /></label>
 
-            <label for="email-label">Email:
+            <label id="email-label">Email:
                 <input id="email" name="email" type="email" placeholder="Enter Email" required /></label>
 
             <label for="phone">Phone Number: <input id="phone" name="phone" type="tel"
                     pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(123) 456-7890">
 
-                <label for="number-label">Age (optional): <input id="number" name="age" type="number" min="13" max="120"
+                <label id="number-label">Age (optional): <input id="number" name="age" type="number" min="13" max="120"
                         placeholder="Enter Age" /></lable>
         </fieldset>
 
         <fieldset>
             <legend>Pronouns (optional)</legend>
-            <label for="pronouns">She/Her<input id="fpronouns" name="pronouns" type="radio" class="inline"></label>
-            <label for="pronouns">He/Him<input id="mpronouns" name="pronouns" type="radio" class="in-line">
+            <label for="pronouns">She/Her<input id="fpronouns" name="pronouns" type="radio" class="inline"
+                    value="1"></label>
+            <label for="pronouns">He/Him<input id="mpronouns" name="pronouns" type="radio" class="in-line" value="2">
             </label>
-            <label for="pronouns">They/Them<input id="nbpronouns" name="pronouns" type="radio" class="in-line"></label>
-            <label for="pronouns">Other <input id="othpronouns" name="pronouns" type="text" class="in-line"></label>
+            <label for="pronouns">They/Them<input id="nbpronouns" name="pronouns" type="radio" class="in-line"
+                    value="3"></label>
+            <label for="pronouns">Other <input id="othpronouns" name="pronouns" type="text" class="in-line"
+                    placeholder="Ze, Xe, Ella..."></label>
         </fieldset>
 
         <fieldset>
             <legend>Reason for Contact</legend>
             <textarea id="reason" name="reason" rows="3" cols="50"></textarea>
             <legend>Contact Preference</legend>
-            <label for="preference-phone">Phone <input id="preference" name="preference" type="checkbox"></input>
-                <label for="preference-email">Email <input id="preference" name="preference" type="checkbox"></input>
-                    <label for="preference-Text">Text <input id="preference" name="preference" type="checkbox"></input>
+            <label for="preference-phone">Phone <input id="preference" name="preference" type="checkbox"
+                    value="1"></input>
+                <label for="preference-email">Email <input id="preference" name="preference" type="checkbox"
+                        value="2"></input>
+                    <label for="preference-Text">Text <input id="preference" name="preference" type="checkbox"
+                            value="3"></input>
         </fieldset>
 
         <fieldset>
@@ -59,7 +65,13 @@
                 </select>
             </label>
         </fieldset>
+        <fieldset>
+            <legend>Share a tidbit about <em>YOU</em> to help me get to know you!</legend>
+            <textarea id="tidbit" name="tidbit" rows="3" cols="50" placeholder:"My favorite thing to watch are
+                K-dramas"></textarea>
+        </fieldset>
 
+        <input id="submit" type="submit" value="Submit" />
 
     </form>
 </body>

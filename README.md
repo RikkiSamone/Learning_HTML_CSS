@@ -1,7 +1,8 @@
 # Learning_HTML_CSS
 Exercises from the freecodecamp.org curriculum
    ## Learning Responsive Web Design with HTML and CSS. 
-     FreeCodeCamp Portfolio: https://www.freecodecamp.org/RikkiSamone 
+     FreeCodeCamp Portfolio: 
+     https://www.freecodecamp.org/RikkiSamone 
 
 
 - **Project 1: Cat Photo App - Basic HTML**
@@ -11,4 +12,4 @@ Exercises from the freecodecamp.org curriculum
 - **Project 5: Certification Project_Survey Form**
 - **Project 6: Rothko Painting - CSS Box Model**
 - **Project 7: Photo Gallery - CSS Flexbox**
-- **Project 8: Butritiion Label - CSS Typography**
+- **Project 8: Nutrition Label - CSS Typography**

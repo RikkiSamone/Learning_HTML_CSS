@@ -13,3 +13,6 @@ Exercises from the freecodecamp.org curriculum
 - **Project 6: Rothko Painting - CSS Box Model**
 - **Project 7: Photo Gallery - CSS Flexbox**
 - **Project 8: Nutrition Label - CSS Typography**
+- **Project 9: Balance Sheet - CSS Psuedo Selectors**
+- **Project 10: Quiz - Accessibility**
+- **Tribute Project: Tribute Page; required for Certification**

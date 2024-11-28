@@ -16,3 +16,4 @@ Exercises from the freecodecamp.org curriculum
 - **Project 9: Balance Sheet - CSS Psuedo Selectors**
 - **Project 10: Quiz - Accessibility**
 - **Tribute Project: Tribute Page; required for Certification**
+- **Project 11: Piano: Responsice Web Design**

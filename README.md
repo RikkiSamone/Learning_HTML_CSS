@@ -9,11 +9,13 @@ Exercises from the freecodecamp.org curriculum
 - **Proect 2: Cafe menu - Basic CSS**
 - **Project 3: Colored Marker Set - CSS Colors**
 - **Project 4: Registration Form - HTML Forms**
-- **Project 5: Certification Project_Survey Form**
+- **Certification Project_Survey Form**
 - **Project 6: Rothko Painting - CSS Box Model**
 - **Project 7: Photo Gallery - CSS Flexbox**
 - **Project 8: Nutrition Label - CSS Typography**
 - **Project 9: Balance Sheet - CSS Psuedo Selectors**
 - **Project 10: Quiz - Accessibility**
-- **Tribute Project: Tribute Page; required for Certification**
+- **Certification Project: Tribute Page**
 - **Project 11: Piano: Responsice Web Design**
+- **Project 12: Cat Painting: Intermediate CSS**
+- **Certification Project: Technical Documentation**

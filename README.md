@@ -19,3 +19,4 @@ Exercises from the freecodecamp.org curriculum
 - **Project 11: Piano: Responsice Web Design**
 - **Project 12: Cat Painting: Intermediate CSS**
 - **Certification Project: Technical Documentation**
+- **Project 13: Skyline: CSS Variables**

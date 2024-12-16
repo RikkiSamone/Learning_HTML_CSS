@@ -20,3 +20,5 @@ Exercises from the freecodecamp.org curriculum
 - **Project 12: Cat Painting: Intermediate CSS**
 - **Certification Project: Technical Documentation**
 - **Project 13: Skyline: CSS Variables**
+- **Project 14: Ferris Wheel: CSS Animation**
+- **Project 15: Magazine Page: CSS Grid**

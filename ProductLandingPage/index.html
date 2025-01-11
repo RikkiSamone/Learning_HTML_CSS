@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Produt Landing Page</title>
 </head>
+
 <body>
-    
+    <header id="header">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#benefits">Benefits</a>
+            <a class="nav-link" href="#menu">Menu</a>
+        </nav>
+        <div class="title">
+            Authentic Korean Food
+            <img id="header-img"
+                src="https://www.seriouseats.com/thmb/VsdgRZtSV8oNeePbolocjlJ1zQc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__01__20200122-gimbap-vicky-wasik-24-1500x1125-87f8b899de644456add62b9532dbb2ae.jpg">
+        </div>
+    </header>
+
+
+
+    <div class="video-embed">
+        <iframe id="video" width="560" height="315"
+            src="https://www.youtube.com/embed/2oEdHukR4zY?si=Hm7DxY4dfLiG-03i&amp;clip=UgkxNSrPwF0oWVqNuzxpd9U74t3t6fs1jyMR&amp;clipt=EAAY5K8B"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div id="about" class="about">
+        <h1>About Us</h1>
+        <h3>Welcome to Seoul Flavor, where tradition meets taste!</h3>
+
+        <p>At Seoul Flavor, we are passionate about bringing the heart of Korea to your table. From the bustling markets
+            of Seoul to the tranquil countryside, Korean cuisine is rich in flavor, history, and culture. Our mission is
+            to share that heritage with every dish we serve.</p>
+
+        <h3>Our Story</h3>
+
+        <p>Founded by a family of culinary enthusiasts, Seoul Flavor started with a vision: to provide an authentic
+            Korean dining experience in the heart of [Your Location]. Inspired by recipes passed down through
+            generations, we combine traditional cooking techniques with the freshest ingredients to create meals that
+            warm the soul.</p>
+
+    </div>
+    <div id="benefits" class="benefits">
+        <h1> Why Authentic Korean Food?</h1>
+        <ul>
+            <li><strong>Authentic Dishes:</strong> From sizzling Bulgogi to comforting Kimchi Jjigae, every dish tells a
+                story.</li>
+            <li><strong>Handcrafted Banchan: </strong> Our side dishes are made fresh daily, reflecting the diverse
+                flavors of Korean cuisine.</li>
+            <li><strong>Signature BBQ:</strong> Experience the joy of Korean BBQ with premium cuts and house-made
+                marinades.</li>
+            <li><strong>Warm Hospitality:</strong> At Seoul Flavor, you’re not just a guest; you’re part of our family.
+            </li>
+        </ul>
+    </div>
+    <div id="menu" class="menu">
+        <h1>Menu</h1>
+        <ul>
+            <li>
+                <h3>Bulgolgi BBQ</h3>
+                <p>Thinly sliced beef marinated in a blend of soy sauce, sesame oil, garlic, and a touch of sweetness,
+                    grilled to perfection. Served with steamed rice and a side of fresh vegetables.</p>
+            </li>
+            <li>
+                <h3>Kimchee Jigae</h3>
+                <p>A hearty and spicy stew made with aged kimchi, tofu, pork, and green onions simmered in a rich broth.
+                    Served bubbling hot with a side of rice.</p>
+            </li>
+            <li>
+                <h3>Bibimbap</h3>
+                <p>A vibrant bowl of warm rice topped with seasoned vegetables, a fried egg, and your choice of beef,
+                    chicken, or tofu. Served with gochujang (spicy red chili paste) for mixing.</p>
+            </li>
+            <li>
+                <h3>Tteokbokki</h3>
+                <p>Soft and chewy rice cakes stir-fried in a bold and spicy gochujang-based sauce, paired with fish
+                    cakes and boiled eggs for a comforting street-food favorite.</p>
+            </li>
+            <li>
+                <h3>Haemul Pajeon</h3>
+                <p>A savory Korean pancake packed with green onions, shrimp, squid, and mussels, pan-fried until golden
+                    and crispy. Served with a tangy soy dipping sauce.</p>
+            </li>
+
+    </div>
+
+    <div class="form">
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+
+            <label for="email">Enter Your Email: <input id="email" name="email" type="email"
+                    placeholder="1234@email.com" required /></label>
+
+            <input id="submit" type="submit" value="Submit" />
+        </form>
+    </div>
+
+
 </body>
+
 </html>
